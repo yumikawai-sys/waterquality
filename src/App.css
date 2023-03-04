@@ -1,0 +1,454 @@
+body
+{
+  background-color:rgb(27, 42, 54);
+  color: white;
+  
+}
+.navbar
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(27, 42, 54);
+    color:white;
+    height:30px;
+    
+}
+
+.navlink
+{
+    margin-left:20px;
+    margin-right:20px;
+    font-size: 20px;
+    
+}
+
+.mdl-textfield {
+    width: 250px;
+    margin-right: 10px;
+}
+
+#loginform {
+    height: 600px;
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo
+{
+    height:50px;
+}
+
+#logo, #compname
+{
+  margin: 40px;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.myheader
+{
+    text-align: right;
+    padding-right: 20px;
+    background-color:rgb(27, 42, 54);
+    opacity: 0.9;
+    color:white;
+    font-size:10pt;
+    height:30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.authnav
+{
+    font-size:12pt;    
+    font-family: 'Roboto', sans-serif;
+    padding:12px 30px; 
+    color:white;
+}
+
+.authnav a
+{
+    color:white;
+}
+
+
+.homepage
+{
+    background:url("/public/river.jpg");
+    height:100vh;
+    width:auto;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.hometext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px 0 200px;
+  margin-bottom: 40px;
+  background:url("/public/water.jpg");
+  height:100%;
+}
+
+.aboutmain
+{
+    background:url("/public/main.jpg");
+    height:100vh;
+    width:auto;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.abouttext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px 0 200px;
+  margin-bottom: 40px;
+  background:url("/public/water.jpg");
+  height:100%;
+}
+
+.servicemain
+{
+    background:url("/public/harbour.jpg");
+    height:120vh;
+    width:auto;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.servicetext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px 0 200px;
+  margin-bottom: 40px;
+  background:url("/public/water.jpg");
+  height:100%;
+}
+
+.contactmain
+{
+    background:url("/public/boy.jpg");
+    height:120vh;
+    width:auto;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+
+.contacttext
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+  background:url("/public/water.jpg");
+  height:100%;
+}
+
+.adminmain
+{
+    height:86vh;
+    width:auto;
+    font-size:20pt;    
+    font-family: 'Roboto', sans-serif;
+}
+.dataimmain
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 0 100px 0 100px;
+}
+
+.mapblock, .tableblock
+{
+  margin: 20px;
+  height: 400px;
+  width: 600px;
+}
+#waternames
+{
+  margin: 0 10px 10px 0;
+}
+.selectstart, .selectend
+{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+.periodselection
+{
+    display: flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+#startYear, #startMonth, #startDate, #endYear,#endMonth, #endDate, #startp, #endp, #selectPeriod
+{
+  margin: 5px 5px 5px 0;
+}
+#selectPeriod
+{
+  width: 108px;
+  background-color:rgb(14, 134, 231);
+  border-color:rgb(38, 151, 243);
+  color: white;
+  border-radius: 4px;
+}
+#selectButton
+{
+  width: 96px;
+  background-color:rgb(14, 134, 231);
+  border-color:rgb(38, 151, 243);
+  color: white;
+  border-radius: 4px;
+}
+#historyh4
+{
+  margin-left:100px;
+}
+
+  #custommarker
+  {
+    background:url("/public/marker.png");
+    color: red;
+  }
+  #waterdatatable, tr, td, th
+  {
+    border: 1px solid black;
+    font-size: 12px;
+    background-color: white;
+    width: 100%;
+  }
+
+  .mainone
+  {
+    margin-top: 0px;
+    margin-left: 20px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .contactone
+  {
+    margin-top: 0px;
+    margin-left: 720px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  footer
+  {
+    height: 1px;
+    display: flex;
+    flex-direction: column;
+    justify-content:baseline;
+    align-items:center;
+    color: white;
+    background-color:rgb(27, 42, 54);
+  }
+  #formcontact
+  {
+    margin-bottom: 20px;
+    height: 60vh;
+  }
+  .formtable
+  {
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    height:300px;
+    width: 400px;
+    padding: 20px;
+  }
+  .loginform, .logoutform, .signupform
+  {
+    height: 555px;
+    padding: 0 200px 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    color: black;
+  }
+  .loginform input
+  {
+    margin: 20px 0 20px 0;
+    width: 250px;
+    height:40px;
+    border-radius: 6px;
+    border-color: rgb(219, 217, 217);
+  }
+  .signupform input
+  {
+    margin: 20px 0 20px 0;
+    width: 250px;
+    height:40px;
+    border-radius: 6px;
+    border-color: rgb(219, 217, 217);
+  }
+  #logsignbutton
+  {
+    width: 150px;
+    height:35px;
+    font-size:18px;
+    border-radius: 6px;
+    background-color:rgb(72, 233, 185);
+    border-color:rgb(123, 226, 183);
+    color: white;
+  }
+  .formtable th, tr, td
+  {
+    border: 0px;
+    color: rgb(88, 86, 86);
+  }
+  .formtable td
+  {
+    text-align: right;
+  }
+  #h2yellowletter
+  {
+    color: rgb(247, 247, 36);
+  }
+  .contacttable
+  {
+    box-shadow: 0px 2px 5px rgba(0,0,0,.25);
+    height:350px;
+    width: 500px;
+    padding: 20px;
+    background-color: white;
+  }
+  .contacttable th, tr, td
+  {
+    border: 0px;
+    color: rgb(88, 86, 86);
+    text-align: right;
+  }
+  #sendbutton
+  {
+    text-align: center;
+    width:360px;
+  }
+  #contactmail
+  {
+    width:98%;
+    height:95%;
+    border-color: rgb(250, 248, 248);
+    text-align: left;
+    border-radius: 6px;
+  }
+  #contactmessage
+  {
+    width:98%;
+    height:95%;
+    border-color: rgb(250, 248, 248);
+    text-align: left;
+    border-radius: 6px;
+  }
+  #sbutton
+  {
+    width:260px;
+    height:30px;
+    background-color:rgb(14, 134, 231);
+    border-color:rgb(38, 151, 243);
+    color: white;
+    font-size: 18px;
+    border-radius: 4px;
+  }
+  #emailtext, #messagetext
+  {
+    font-size: 14px;
+    font-weight: bold;
+    width:80px;
+  }
+  #messagetext
+  {
+    height:200px;
+  }
+  #loginmail, #loginpass
+  {
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .pagination
+  {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .active, pagination__previous, pagination__next
+  {
+    text-decoration: none;
+    list-style:none;
+    margin: 0 20px;
+  }
+  
+  .pagination {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(189, 239, 248);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    border-radius: 10px;
+  }
+  .pagination__disabled, .pages pagination
+  {
+    display: none;
+  }
+  .pages pagination
+  {
+    display: none;
+  }
+  .active, .pagination__previous, .pagination__next
+  {
+    margin: 0 40px;
+    font-weight:bolder;
+    background-color: white;
+    border-radius: 40%;
+  }
+
+  .pagination__previous:hover , .pagination__next:hover 
+  {
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 40%;
+    font-size: 28px;
+  }
+
+  #waterdatatable
+  {
+    margin-bottom: 20px;
+    width: 100%;
+    table-layout: fixed;
+  }
+  #waterdatatable th
+  {
+    text-align: center;
+    background-color: rgb(167, 172, 173);
+  }
+  #waterdatatable 
+  {
+    background-color: #8b8989;
+  }
+  #waterdatatable tr:nth-type(odd) 
+  {
+    background-color: #fff;
+  }
+
+  #waterdatatable tr:hover {
+    background-color: rgba(0,0,0,0.2);
+    cursor:pointer; 
+  }
+  
