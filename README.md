@@ -1,12 +1,15 @@
-# Installation Instructions
+# Project Name
+N.S. Water Quality App
 
-## Steps
-1. Download the zipped up template.
-2. run >npm install
-3. Go to the Google Firebase console and navigate around until you find your firebase config (it's in settings)
-4. Update your firebase config.
-5. run >npm start
+## Description
+This project is an app to showcase Nova Scotia's water quality with React and Firebase Authentication.
 
+## Installation
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `npm install` to install dependencies.
 
+## Usage
+1. Run `npm start` to start the development server.
 
 
